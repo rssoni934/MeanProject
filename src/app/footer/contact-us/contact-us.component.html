@@ -1,0 +1,964 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- logo -->
+    <link rel="icon" type="image/png" href="assets/images/fav_icon.png"/>
+
+    <title>Yaari</title>
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- ///// Owl Slider Css ///// -->
+    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+  </head>
+<body>
+
+<div class="top_profile_crt_lg_sec p-4">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img class="img-fluid" src="assets/images/logo.png">
+    </a>
+    <div class="top_profile_crt_on_rgt d-flex flex-wrap float-right align-items-center">
+      <div class="top_profile_main float-left px-3">
+        <div class="dropdown top_profile_main_drpdwn">
+          <button class="dropdown-toggle text-left d-flex" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img  class="d-block float-left img-fluid mr-2 my-auto" src="assets/images/profile_default.svg" width="40" height="40">
+            <span class="d-block float-left">
+              <span class="font-400 font-14">Hello, Sign in</span>
+              <br>
+              <span class="font-600 font-16">Your Account</span>
+            </span>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item my-2 d-inline-block font-16 text-center btn-theme-border" href="sign_in.html">
+              Sing In
+            </a>
+            <span class="my-2 d-inline-block text-center w-100">
+              Don't have an account?
+            </span>
+            <a class="dropdown-item my-2 d-inline-block font-16 text-center btn-theme" href="create_account.html">
+              Create Account
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="top_profile_main float-left px-3">
+        <div class="dropdown top_profile_main_drpdwn top_profile_main_drpdwn_on_login">
+          <button class="dropdown-toggle text-left d-flex" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img  class="d-block float-left img-fluid mr-2 my-auto" src="assets/images/profile_default.svg" width="40" height="40">
+            <span class="d-block float-left">
+              <span class="font-400 font-14">Hello,</span>
+              <br>
+              <span class="font-600 font-16">Pooja Verma</span>
+            </span>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item font-400 font-16" href="javaScript:void(0)">
+              Your Profile
+            </a>
+            <a class="dropdown-item font-400 font-16" href="javaScript:void(0)">
+              Your Wishlist
+            </a>
+            <a class="dropdown-item font-400 font-16" href="contact_us.html">
+              Contact Us
+            </a>
+            <a class="dropdown-item border-0 font-400 font-16 text-danger" href="javaScript:void(0)">
+              Logout
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="top_crt_main float-left px-3">
+        <img class="img-fluid mr-1" width="23" height="23" src="assets/images/cart_icon.svg">
+        <span class="font-600 font-16">
+          Cart
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <nav class="navbar navbar-expand-lg custom_navbar_main px-4 py-4">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto custom_navbar_nav">
+        <li class="nav-item active">
+          <a class="nav-link font-16 font-400" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font-16 font-400" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link font-16 font-400 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav> -->
+
+<div class="menu-container custom_navbar_main">
+  <div class="container-fluid">
+    <div class="menu">
+      <ul class="clearfix px-3">
+        <li>
+          <a href="index.html" class="nav-link--megamenu active">Home</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link--megamenu">
+            Women's Collection
+            <span class="material-icons nav_links_btm_arrow">expand_more</span>
+          </a>
+          <ul class="nav-link--megamenu-sub-lg">
+            <div class="row mx-0">
+              <div class="col-lg-7 px-2">
+                <div class="row mx-0">
+                  <div class="col-lg-4 px-2 mb-3">
+                    <li>
+                      <a href="#" class="nav-link--megamenu font-600 font-18 text-uppercase btn-theme-border">
+                        WESTERN WEAR
+                      </a>
+                      <ul>
+                        <li><a href="#" class="nav-link--megamenu">Jeans</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Tops</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Gown</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Maxi</a></li>
+                      </ul>
+                    </li>
+                  </div>
+                  <div class="col-lg-4 px-2 mb-3">
+                    <li>
+                      <a href="#" class="nav-link--megamenu font-600 font-18 text-uppercase btn-theme-border">
+                        SEASONAL WEAR
+                      </a>
+                      <ul>
+                        <li><a href="#" class="nav-link--megamenu">Long Gown</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Cotton Skirts</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Woolen Tops</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Woolen Maxi</a></li>
+                      </ul>
+                    </li>
+                  </div>
+                  <div class="col-lg-4 px-2 mb-3">
+                    <li>
+                      <a href="#" class="nav-link--megamenu font-600 font-18 text-uppercase btn-theme-border">
+                        NEW ARRIVAL
+                      </a>
+                      <ul>
+                        <li><a href="#" class="nav-link--megamenu">Perfect Fit Top</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Leggings</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Shorts</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Pyjama</a></li>
+                      </ul>
+                    </li>
+                  </div>
+                  <div class="col-lg-4 px-2 mb-3">
+                    <li>
+                      <a href="#" class="nav-link--megamenu font-600 font-18 text-uppercase btn-theme-border">
+                        BOTIQUE
+                      </a>
+                      <ul>
+                        <li><a href="#" class="nav-link--megamenu">Jeans</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Tops</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Gown</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Maxi</a></li>
+                      </ul>
+                    </li>
+                  </div>
+                  <div class="col-lg-4 px-2 mb-3">
+                    <li>
+                      <a href="#" class="nav-link--megamenu font-600 font-18 text-uppercase btn-theme-border">
+                        ETHNIC WEAR
+                      </a>
+                      <ul>
+                        <li><a href="#" class="nav-link--megamenu">Long Gown</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Cotton Skirts</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Woolen Tops</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Woolen Maxi</a></li>
+                      </ul>
+                    </li>
+                  </div>
+                  <div class="col-lg-4 px-2 mb-3">
+                    <li>
+                      <a href="#" class="nav-link--megamenu font-600 font-18 text-uppercase btn-theme-border">
+                        PARTY COLLECTION
+                      </a>
+                      <ul>
+                        <li><a href="#" class="nav-link--megamenu">Perfect Fit Top</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Leggings</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Shorts</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Pyjama</a></li>
+                      </ul>
+                    </li>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5 px-2">
+                <div class="row">
+                  <div class="col-lg-6 px-2">
+                    <div class="nav_offer_banner01">
+                      <img src="assets/images/nav_col_img1.png">
+                    </div>
+                    <div class="nav_offer_banner01">
+                      <img src="assets/images/nav_col_img2.png">
+                    </div>
+                  </div>
+                  <div class="col-lg-6 px-2">
+                    <div class="nav_offer_banner02">
+                      <img src="assets/images/nav_col_img3.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="nav-link--megamenu">
+            Men's Collection
+            <span class="material-icons nav_links_btm_arrow">expand_more</span>
+          </a>
+          <ul class="nav-link--megamenu-sub-lg">
+            <div class="row mx-0">
+              <div class="col-lg-6 px-2">
+                <div class="row mx-0">
+                  <div class="col-lg-6 px-2 mb-3">
+                    <li>
+                      <a href="#" class="nav-link--megamenu font-600 font-18 text-uppercase btn-theme-border">
+                        SHIRTS
+                      </a>
+                      <ul>
+                        <li><a href="#" class="nav-link--megamenu">Jeans</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Tops</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Gown</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Maxi</a></li>
+                      </ul>
+                    </li>
+                  </div>
+                  <div class="col-lg-6 px-2 mb-3">
+                    <li>
+                      <a href="#" class="nav-link--megamenu font-600 font-18 text-uppercase btn-theme-border">
+                        T-SHIRTS  
+                      </a>
+                      <ul>
+                        <li><a href="#" class="nav-link--megamenu">Long Gown</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Cotton Skirts</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Woolen Tops</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Woolen Maxi</a></li>
+                      </ul>
+                    </li>
+                  </div>
+                  <div class="col-lg-6 px-2 mb-3">
+                    <li>
+                      <a href="#" class="nav-link--megamenu font-600 font-18 text-uppercase btn-theme-border">
+                        TROUSERS
+                      </a>
+                      <ul>
+                        <li><a href="#" class="nav-link--megamenu">Perfect Fit Top</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Leggings</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Shorts</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Pyjama</a></li>
+                      </ul>
+                    </li>
+                  </div>
+                  <div class="col-lg-6 px-2 mb-3">
+                    <li>
+                      <a href="#" class="nav-link--megamenu font-600 font-18 text-uppercase btn-theme-border">
+                        SUIT & BLAZERS  
+                      </a>
+                      <ul>
+                        <li><a href="#" class="nav-link--megamenu">Jeans</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Tops</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Gown</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Maxi</a></li>
+                      </ul>
+                    </li>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 px-2">
+                <div class="row">
+                  <div class="col-lg-6 px-2">
+                    <div class="nav_offer_banner01">
+                      <img src="assets/images/nav_col_img1.png">
+                    </div>
+                    <div class="nav_offer_banner01">
+                      <img src="assets/images/nav_col_img2.png">
+                    </div>
+                  </div>
+                  <div class="col-lg-6 px-2">
+                    <div class="nav_offer_banner02">
+                      <img src="assets/images/nav_col_img3.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="nav-link--megamenu">
+            Bags
+            <span class="material-icons nav_links_btm_arrow">expand_more</span>
+          </a>
+          <ul class="nav-link--megamenu-sub-lg">
+            <div class="row mx-0">
+              <div class="col-lg-3 px-2 mb-3">
+                <li>
+                  <a href="#" class="nav-link--megamenu font-600 font-18 text-uppercase btn-theme-border">
+                    HAND BAGS
+                  </a>
+                  <ul>
+                    <li><a href="#" class="nav-link--megamenu">Jeans</a></li>
+                    <li><a href="#" class="nav-link--megamenu">Tops</a></li>
+                    <li><a href="#" class="nav-link--megamenu">Gown</a></li>
+                    <li><a href="#" class="nav-link--megamenu">Maxi</a></li>
+                  </ul>
+                </li>
+              </div>
+              <div class="col-lg-3 px-2 mb-3">
+                <li>
+                  <a href="#" class="nav-link--megamenu font-600 font-18 text-uppercase btn-theme-border">
+                    TRAVEL BAGS  
+                  </a>
+                  <ul>
+                    <li><a href="#" class="nav-link--megamenu">Long Gown</a></li>
+                    <li><a href="#" class="nav-link--megamenu">Cotton Skirts</a></li>
+                    <li><a href="#" class="nav-link--megamenu">Woolen Tops</a></li>
+                    <li><a href="#" class="nav-link--megamenu">Woolen Maxi</a></li>
+                  </ul>
+                </li>
+              </div>
+              <div class="col-lg-3 px-2 mb-3">
+                <li>
+                  <a href="#" class="nav-link--megamenu font-600 font-18 text-uppercase btn-theme-border">
+                    BACKPACKS
+                  </a>
+                  <ul>
+                    <li><a href="#" class="nav-link--megamenu">Perfect Fit Top</a></li>
+                    <li><a href="#" class="nav-link--megamenu">Leggings</a></li>
+                    <li><a href="#" class="nav-link--megamenu">Shorts</a></li>
+                    <li><a href="#" class="nav-link--megamenu">Pyjama</a></li>
+                  </ul>
+                </li>
+              </div>
+              <div class="col-lg-3 px-2">
+                <div class="nav_offer_banner03">
+                  <img src="assets/images/nav_col_img3.png">
+                </div>
+              </div>
+            </div>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="nav-link--megamenu">
+            Shoes            
+            <span class="material-icons nav_links_btm_arrow">expand_more</span>
+          </a>          
+          <ul class="nav-link--megamenu-sub-lg">
+            <div class="row mx-0">
+              <div class="col-lg-7 px-2">
+                <div class="row mx-0">
+                  <div class="col-lg-4 px-2 mb-3">
+                    <li>
+                      <a href="#" class="nav-link--megamenu font-600 font-18 text-uppercase btn-theme-border">
+                        WOMEN'S COLLECTION
+                      </a>
+                      <ul>
+                        <li><a href="#" class="nav-link--megamenu">Jeans</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Tops</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Gown</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Maxi</a></li>
+                      </ul>
+                    </li>
+                  </div>
+                  <div class="col-lg-4 px-2 mb-3">
+                    <li>
+                      <a href="#" class="nav-link--megamenu font-600 font-18 text-uppercase btn-theme-border">
+                        MEN'S COLLECTION
+                      </a>
+                      <ul>
+                        <li><a href="#" class="nav-link--megamenu">Long Gown</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Cotton Skirts</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Woolen Tops</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Woolen Maxi</a></li>
+                      </ul>
+                    </li>
+                  </div>
+                  <div class="col-lg-4 px-2 mb-3">
+                    <li>
+                      <a href="#" class="nav-link--megamenu font-600 font-18 text-uppercase btn-theme-border">
+                        SPORT'S COLLECTION
+                      </a>
+                      <ul>
+                        <li><a href="#" class="nav-link--megamenu">Perfect Fit Top</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Leggings</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Shorts</a></li>
+                        <li><a href="#" class="nav-link--megamenu">Pyjama</a></li>
+                      </ul>
+                    </li>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5 px-2">
+                <div class="row">
+                  <div class="col-lg-6 px-2">
+                    <div class="nav_offer_banner04">
+                      <img src="assets/images/nav_col_img3.png">
+                    </div>
+                    <h6 class="font-600 text-dark text-center">
+                      American Crepe Floral Gown
+                      <span class="d-block mt-3 font-400">
+                        ₹500
+                      </span>
+                    </h6>
+                  </div>
+                  <div class="col-lg-6 px-2">
+                    <div class="nav_offer_banner02">
+                      <img src="assets/images/nav_col_img3.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="nav-link--megamenu">
+            Accessories
+            <span class="material-icons nav_links_btm_arrow">expand_more</span>
+          </a>
+          <ul class="nav-link--megamenu-sub-lg">
+            <div class="row mx-0">
+              <div class="col-lg-3 px-2 mb-3">
+                <li>
+                  <a href="#" class="nav-link--megamenu font-600 font-18 text-uppercase btn-theme-border">
+                    SUNGLASSES
+                  </a>
+                  <ul>
+                    <li><a href="#" class="nav-link--megamenu">Jeans</a></li>
+                    <li><a href="#" class="nav-link--megamenu">Tops</a></li>
+                    <li><a href="#" class="nav-link--megamenu">Gown</a></li>
+                    <li><a href="#" class="nav-link--megamenu">Maxi</a></li>
+                  </ul>
+                </li>
+              </div>
+              <div class="col-lg-3 px-2 mb-3">
+                <li>
+                  <a href="#" class="nav-link--megamenu font-600 font-18 text-uppercase btn-theme-border">
+                    JEWELLERY
+                  </a>
+                  <ul>
+                    <li><a href="#" class="nav-link--megamenu">Long Gown</a></li>
+                    <li><a href="#" class="nav-link--megamenu">Cotton Skirts</a></li>
+                    <li><a href="#" class="nav-link--megamenu">Woolen Tops</a></li>
+                    <li><a href="#" class="nav-link--megamenu">Woolen Maxi</a></li>
+                  </ul>
+                </li>
+              </div>
+              <div class="col-lg-3 px-2 mb-3">
+                <li>
+                  <a href="#" class="nav-link--megamenu font-600 font-18 text-uppercase btn-theme-border">
+                    HAIR ACCESSORIES
+                  </a>
+                  <ul>
+                    <li><a href="#" class="nav-link--megamenu">Perfect Fit Top</a></li>
+                    <li><a href="#" class="nav-link--megamenu">Leggings</a></li>
+                    <li><a href="#" class="nav-link--megamenu">Shorts</a></li>
+                    <li><a href="#" class="nav-link--megamenu">Pyjama</a></li>
+                  </ul>
+                </li>
+              </div>              
+              <div class="col-lg-3 px-2 mb-3">
+                <li>
+                  <a href="#" class="nav-link--megamenu font-600 font-18 text-uppercase btn-theme-border">
+                    HATS & SCARVES
+                  </a>
+                  <ul>
+                    <li><a href="#" class="nav-link--megamenu">Perfect Fit Top</a></li>
+                    <li><a href="#" class="nav-link--megamenu">Leggings</a></li>
+                    <li><a href="#" class="nav-link--megamenu">Shorts</a></li>
+                    <li><a href="#" class="nav-link--megamenu">Pyjama</a></li>
+                  </ul>
+                </li>
+              </div>
+              <div class="col-lg-6 px-2">
+                <div class="nav_offer_banner05">
+                  <img src="assets/images/nav_col_img3.png">
+                </div>
+              </div>
+              <div class="col-lg-6 px-2">
+                <div class="nav_offer_banner05">
+                  <img src="assets/images/nav_col_img3.png">
+                </div>
+              </div>
+            </div>
+          </ul>
+        </li>
+        <li>
+        <li>
+          <a href="all_collections.html" class="nav-link--megamenu">
+            All Collections
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link--megamenu">
+            Pages
+            <span class="material-icons nav_links_btm_arrow">expand_more</span>
+          </a>
+          <ul class="nav-link--megamenu-sub-lg">
+            <li><a href="#" class="nav-link--megamenu">About</a></li>
+            <li><a href="#" class="nav-link--megamenu">Contact</a></li>
+            <li><a href="faqs.html" class="nav-link--megamenu">FAQ</a></li>
+            <li><a href="blogs.html" class="nav-link--megamenu border-0">Blogs</a></li>
+          </ul>
+        </li>
+        <li class="web_prod_srch_li">
+          <input type="text" placeholder="Find the best for you...">
+          <img class="img-fluid" width="17" height="17" src="assets/images/search_icon.svg">
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<!-- Breadcrumb section -->
+
+<div class="jumbotron jumbotron-fluid breadcrumb_jumbo_custom">
+  <div class="container text-center">
+    <h1 class="text-dark font-500 mb-0">
+      Contact Us
+    </h1>
+    <nav aria-label="breadcrumb" class="d-flex justify-content-center">
+      <ol class="breadcrumb mb-0 bg-transparent">
+        <li class="breadcrumb-item">
+          <a href="#" class="text-gray font-400 text-font-18">Home</a>
+        </li>
+        <li class="breadcrumb-item active text-gray font-400 text-font-18" aria-current="page">
+          Contact Us
+        </li>
+      </ol>
+    </nav>
+  </div>
+</div>
+
+<!-- Breadcrumb End -->
+
+<!-- Map section -->
+
+<section class="sing_in_sec pb-4">
+  <div class="mapouter">
+    <div class="gmap_canvas">
+      <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=University of Oxford&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">        
+      </iframe>      
+    </div>
+    </div>
+</section>
+
+<!-- Map section End -->
+
+<!-- Contact Details -->
+
+<section class="contact_det_sec pt-0">
+  <div class="container-fluid">
+    <div class="row mx-0 px-5 justify-content-center">
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="contact_det_sec_crds w-100 text-center px-3 py-5">
+          <img class="img-fluid my-3" src="assets/images/phone_icon.svg">
+          <h4 class="font-500 text-dark my-2">
+            PHONE
+          </h4>
+          <span class="font-16 text-gray font-400 my-3 d-block">
+            Toll-Free: 0803 - 080 - 3081
+          </span>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="contact_det_sec_crds w-100 text-center px-3 py-5">
+          <img class="img-fluid my-3" src="assets/images/mail_icon.svg">
+          <h4 class="font-500 text-dark my-2">
+            EMAIL
+          </h4>
+          <span class="font-16 text-gray font-400 my-3 d-block">
+            buddha@mail.com
+          </span>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="contact_det_sec_crds w-100 text-center px-3 py-5">
+          <img class="img-fluid my-3" src="assets/images/address_icon.svg">
+          <h4 class="font-500 text-dark my-2">
+            ADDRESS
+          </h4>
+          <span class="font-16 text-gray font-400 my-3 d-block">
+            One International Center, 4th Floor, Tower 1, Senapati 
+            Bapat Marg, Dadar West, Prabhadevi, 
+            Mumbai Maharashtra - 400013
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Details End -->
+
+<!-- Contact Us section -->
+
+<section class="sing_in_sec">
+  <div class="container-fluid">
+    <div class="row mx-0 px-5 mb-5">
+      <div class="col-lg-12 mx-auto text-center">
+        <h2 class="sec_title d-inline-block position-relative"> 
+          Contact Form
+        </h2>
+      </div>
+    </div>
+    <div class="row mx-0 px-5">
+      <div class="col-lg-6 col-md-10 col-sm-12 mx-auto">
+        <form class="custom_form" [formGroup]="myReactiveForm">
+          <div class="form-row">
+            <div class="form-group col-md-12 mb-4">
+              <input type="text" class="form-control" placeholder="Full Name" formControlName="fullname">
+            </div>
+            <div class="form-group col-md-12 mb-4">
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email" formControlName="email">
+            </div>
+            <div class="form-group col-md-12 mb-4">
+              <input type="text" class="form-control" placeholder="Subject" formControlName="subject">
+            </div>
+            <div class="form-group col-md-12 mb-4">
+              <textarea placeholder="Message" class="form-control" formControlName="message"></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-theme font-18 w-100 py-4 mt-2" (click)='fetchdata(myReactiveForm.value)'>Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Us section End -->
+
+<!-- Social Icons -->
+
+<!-- <section class="social_icons_sec mb-5 pb-0">
+  <div class="row mx-0">
+    <div class="col-lg-12 text-center">
+      <ul class="p-0 m-0 d-inline-block" style="list-style-type:none;">
+        <li class="float-left px-3">
+          <a href="javaScript:void(0)">
+            <img src="assets/images/fb_icon.svg" width="26" height="26">
+          </a>
+        </li>
+        <li class="float-left px-3">
+          <a href="javaScript:void(0)">
+            <img src="assets/images/twitter_icon.svg" width="26" height="26">
+          </a>
+        </li>
+        <li class="float-left px-3">
+          <a href="javaScript:void(0)">
+            <img src="assets/images/insta_icon.svg" width="26" height="26">
+          </a>
+        </li>
+        <li class="float-left px-3">
+          <a href="javaScript:void(0)">
+            <img src="assets/images/youtube_icon.svg" width="26" height="26">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section> -->
+
+<!-- Social Icons End -->
+
+<!-- Footer -->
+
+<!-- <footer class="footer_main">
+  <div class="container-fluid">
+    <div class="row px-5">
+      <div class="col-lg-3">
+        <h4 class="text-dark font-500 d-inline-block mb-5 w-100">
+          Contact us
+        </h4>
+        <div class="footer_contact_det position-relative w-100 mb-3 d-inline-block">
+          <span class="footer_contact_det_icons">
+            <img class="img-fluid" src="assets/images/ft_home.svg" width="22" height="22">
+          </span>
+          <span class="d-block float-left w-75 text-gray font-18 pl-4 ml-2">
+            One International Center, 4th Floor, Tower 1, Senapati Bapat Marg, Dadar West, Prabhadevi,
+            <br>
+            <br>
+            Mumbai Maharashtra - 400013  
+          </span>
+        </div>
+        <div class="footer_contact_det position-relative w-100 mb-3 d-inline-block">
+          <span class="footer_contact_det_icons">
+            <img class="img-fluid" src="assets/images/ft_call.svg" width="22" height="22">
+          </span>
+          <span class="d-block float-left text-gray font-18 pl-4 ml-2">
+            +91-9152 990 990
+          </span>
+        </div>
+        <div class="footer_contact_det position-relative w-100 mb-3 d-inline-block">
+          <span class="footer_contact_det_icons">
+            <img class="img-fluid" src="assets/images/ft_mail.svg" width="22" height="22">
+          </span>
+          <span class="d-block float-left text-gray font-18 pl-4 ml-2">
+            helpme@yaari.com
+          </span>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <h4 class="text-dark font-500 d-inline-block mb-5 w-100">
+          Help
+        </h4>
+        <ul class="p-0 m-0 d-inline-block" style="list-style-type:none;">
+          <li class="mb-3">
+            <a href="javaScript:void(0)" class="font-18 text-gray">
+              Search
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="javaScript:void(0)" class="font-18 text-gray">
+              Help
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="javaScript:void(0)" class="font-18 text-gray">
+              Information
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="javaScript:void(0)" class="font-18 text-gray">
+              Privacy Policy
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="javaScript:void(0)" class="font-18 text-gray">
+              Shipping Details
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h4 class="text-dark font-500 d-inline-block mb-5 w-100">
+          Support
+        </h4>
+        <ul class="p-0 m-0 d-inline-block" style="list-style-type:none;">
+          <li class="mb-3">
+            <a href="javaScript:void(0)" class="font-18 text-gray">
+              Contact Us
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="javaScript:void(0)" class="font-18 text-gray">
+              About Us
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="javaScript:void(0)" class="font-18 text-gray">
+              Careers
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="javaScript:void(0)" class="font-18 text-gray">
+              Refund & Returns
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="javaScript:void(0)" class="font-18 text-gray">
+              Deliveries
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h4 class="text-dark font-500 d-inline-block mb-5 w-100">
+          Information
+        </h4>
+        <ul class="p-0 m-0 d-inline-block" style="list-style-type:none;">
+          <li class="mb-3">
+            <a href="javaScript:void(0)" class="font-18 text-gray">
+              Search Teams
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="javaScript:void(0)" class="font-18 text-gray">
+              Advance Search
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="javaScript:void(0)" class="font-18 text-gray">
+              Help & FAQ's
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="javaScript:void(0)" class="font-18 text-gray">
+              Orders & Returns
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer> -->
+
+<!-- Footer End -->
+
+<!-- Other Links -->
+
+<!-- <section class="social_icons_sec py-4">
+  <div class="row mx-0">
+    <div class="col-lg-12 text-center">
+      <ul class="p-0 m-0 d-inline-block" style="list-style-type:none;">
+        <li class="float-left px-4">
+          <a href="javaScript:void(0)" class="font-18 text-gray">
+            Search
+          </a>
+        </li>
+        <li class="float-left px-4">
+          <a href="javaScript:void(0)" class="font-18 text-gray">
+            Help
+          </a>
+        </li>
+        <li class="float-left px-4">
+          <a href="javaScript:void(0)" class="font-18 text-gray">
+            Information
+          </a>
+        </li>
+        <li class="float-left px-4">
+          <a href="javaScript:void(0)" class="font-18 text-gray">
+            Privacy Policy
+          </a>
+        </li>
+        <li class="float-left px-4">
+          <a href="javaScript:void(0)" class="font-18 text-gray">
+            Shipping Details
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section> -->
+
+<!-- Other Links End -->
+
+<!-- Blank -->
+<!-- <div class="w-100 d-flex py-4" style="background: #363636;"></div> -->
+<!-- Blank -->
+
+
+
+</body>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<!-- <script src="assets/js/bootstrap.min.js"></script> -->
+
+<!-- ////////// Owl Slider JS ////// -->
+<script src="assets/js/owl.carousel.min.js"></script>
+
+<script>
+     
+////  Header Banners OWL
+
+// $('.owl-carousel-header-banners').owlCarousel({
+//   loop:true,
+//   margin:0,
+//   nav:false,
+//   responsive:{
+//     0:{
+//         items:1
+//     },
+//     600:{
+//         items:1
+//     },
+//     1000:{
+//         items:1
+//     }
+//   }
+// });
+    
+// ////  Blog list OWL
+
+// $('.owl-carousel-blog-list').owlCarousel({
+//   loop:true,
+//   margin:30,
+//   nav:false,
+//   responsive:{
+//     0:{
+//         items:1
+//     },
+//     600:{
+//         items:2
+//     },
+//     1000:{
+//         items:3
+//     }
+//   }
+// });
+
+// Mega Menu
+
+// $(document).ready(function() {
+//   "use strict";
+//   $('.menu > ul > li:has( > ul)').addClass('menu-dropdown-icon');
+//   $('.menu > ul > li > ul:not(:has(ul))').addClass('normal-sub');
+//   $(".menu > ul").before("<a href=\"#\" class=\"menu-mobile\">&nbsp;</a>");
+//   $(".menu > ul > li").hover(function(e) {
+//     if ($(window).width() > 943) {
+//       $(this).children("ul").stop(true, false).fadeToggle(150);
+//       e.preventDefault();
+//     }
+//   });
+//   $(".menu > ul > li").click(function() {
+//     if ($(window).width() <= 943) {
+//       $(this).children("ul").fadeToggle(150);
+//     }
+//   });
+//   $(".menu-mobile").click(function(e) {
+//     $(".menu > ul").toggleClass('show-on-mobile');
+//     e.preventDefault();
+//   });
+// });
+// $(window).resize(function() {
+//   $(".menu > ul > li").children("ul").hide();
+//   $(".menu > ul").removeClass('show-on-mobile');
+// });
+
+// </script> 
+
+
+</html>
